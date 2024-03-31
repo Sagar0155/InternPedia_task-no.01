@@ -1,0 +1,971 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+#container #nav{
+    width: 800px;
+    height: 50px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#container #nav .colo{
+    color: red;
+}
+#nav .zero{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+  
+}
+.qwe{
+    color: blue;
+    
+}
+button{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.one .bold{
+    font-weight:bold;
+    font-size: 20px;
+}
+.one .blue{
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.con h3{
+    font-family: "Libre Baskerville", serif;
+}
+#jam{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#jam .orng{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(50deg,yellow,orange);
+    border-radius: 30px;
+    font-weight: bolder;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.con{
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#a h3{
+    color: rgb(0, 255, 157);
+}
+#jam #a h2{
+    font-family: "Libre Baskerville", serif;
+}
+#a .z{
+    text-decoration-color:red;
+}
+#a1 .zone{
+    display: flex;
+    gap: 15px;
+}
+#a1 .two{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+#a1 .a2{
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(rgb(18, 218, 135),rgba(0, 0, 255, 0.61));
+   border-radius: 100px 0px 0px 100px;
+   
+
+}
+#a1 .a3{
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(rgb(221, 47, 76),rgba(255, 192, 203, 0.5));
+    border-radius: 5px;
+}
+#a1 .a4{
+    width: 200px;
+    height: 150px;
+    background:linear-gradient(yellow,red);
+    border-radius: 5px;
+   
+}
+#a1 .a5{
+    width: 200px;
+    height: 150px;
+    background:linear-gradient(75deg,grey,rgb(0, 0, 0));
+    border-radius: 0px 100px 100px 0px;
+   
+}
+.a2{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.a2 img{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+
+}
+.a3{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.a3 img{
+    width: 170px;
+    height: 170px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+
+}
+.a4{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.a4 img{
+    width: 380px;
+    height: 180px;
+    position: relative;
+    bottom: 15px;
+    right: 70px;
+}
+.a5{
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.a5 img{
+    width: 150px;
+    height: 190px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+#ram ul{
+    height: 80px;
+    background-color: blue;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.tom{
+   
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sam{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.sam h2{
+    font-family: "Libre Baskerville", serif;
+}
+.flex{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.lex{
+    width: 1020px;
+    display: flex;
+    justify-content:space-around;
+   
+    
+    
+}
+.lam{
+    width:485px ;
+    display: flex;
+    justify-content: space-between;
+}
+.laam{
+    gap: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.flex .box{
+    width: 230px;
+    height: 170px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box .white{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(blue,blue);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.old .rew{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(rgb(0, 255, 149),rgb(81, 255, 0));
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tre .new{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(rgb(255, 60, 0),rgb(255, 251, 0));
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fre .new{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(rgb(255, 0, 200),rgb(255, 0, 76));
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.double{
+    height: 450px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: aqua;
+
+   
+
+}
+.double .kam{
+    display: flex;
+    justify-content:space-evenly;
+    /* background-color: black; */
+    padding: 50px;
+   
+   
+}
+.double .square{
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(rgb(0, 255, 255),rgb(8, 103, 167));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.square img{
+    width: 270px;
+    height: 200px;
+    position: relative;
+    right: 60px;
+    
+    
+}
+.nam{
+    display: flex;
+   
+}
+
+.line{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    
+  
+}
+.line .pra{
+    color: orangered;
+    height: 30px;
+    font-weight: bolder;
+  
+
+}
+.line h2{
+    height: 70px;
+}
+.line p{
+    height: 125px;
+}
+.orng{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(50deg,yellow,orange);
+    border-radius: 30px;
+    font-weight: bolder;
+
+}
+.red{
+    height: 350px;
+  
+}
+.red .jk{
+   
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
+.jk div{
+    width: 350px;
+   
+    
+}
+.jk .ora{
+    color: orangered;
+    height: 30px;
+    font-weight: bolder;
+    
+}
+
+.jk .b{
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.red .jk .b .ds{
+    width: 300px;
+    height: 80px;
+    
+}
+
+.jk .b1{
+    width: 50%;
+}
+.b .gr{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(50deg,yellow,orange);
+    border-radius: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.b1 .b2{
+    width: 280px;
+    height: 200px;
+    /* background: linear-gradient(rgb(0, 255, 255),rgb(8, 103, 167)); */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: url(/WhatsApp\ Image\ 2024-03-02\ at\ 13.25.29_01b8f1f4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    
+}
+.b1 .b3{
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(orangered,yellow);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    top: 80px;
+    right:40px;
+}
+    
+.b3 img{
+    width: 190px;
+    height: 220px;
+}
+.again{
+    height: 340px;
+    margin-top: 40px;
+    display: flex;
+}
+.again .fire{
+    width: 50%;
+    height:350px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.again .fire .gal{
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(65deg,rgb(10, 221, 98),rgb(10, 183, 236));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.again .fire .gal img{
+    width: 320px;
+    height: 250px;
+}
+
+.again .ice{
+    width: 50%;
+    height:350px ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.again .ice .cold{
+    width: 80%;
+    height: 80%;
+   
+}
+.ice .cold .bol{
+    color: orangered;
+    padding: 10px;
+    
+}
+.ice .cold .pol{
+    font-weight: bolder;
+    padding: 10px;
+    font-family: "Libre Baskerville", serif;
+}
+.ice .cold .par{
+    padding:10px ;
+    
+}
+.asd{
+    height: 70px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.asd .as1{
+    color: orangered;
+    padding: 5px;
+}
+.asd .as2{
+    font-family: "Libre Baskerville", serif;
+}
+.last{
+    height: 150px;
+}
+.last .za{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.last .zb{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.last button{
+    width: 210px;
+    height: 40px;
+    text-align: start;
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.712);
+    color: black;
+    font-weight: bolder;
+    
+    
+}
+.last button i{
+    margin-left: 5px;
+}
+.tog{
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.tog .dam .alpha{
+    color: red;
+}
+.tog .rack{
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+   margin-left: 50px;
+    
+}
+.tog .avi h2{
+    font-family: "Libre Baskerville", serif;
+}
+.tog ul{
+    list-style: none;
+}
+.tog .info h2{
+    font-family: "Libre Baskerville", serif;
+}
+.tog .open h2{
+    font-family: "Libre Baskerville", serif;
+}
+.yugo{
+    display: flex;
+    justify-content: center;
+}
+.yugo h4{
+    color: blue;
+    font-family: "Libre Baskerville", serif;
+}
+.icon{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 25px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.158);
+}
+
+@media screen and (max-width:1050px) {
+    .lex .box{
+        width:200px;
+        height: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+    .lex{
+        width: 900px;
+    }
+    .lam{
+        width: 425px;
+    }
+    .laam{
+        width: 425px;
+    }
+    .again {
+        width: 1000px;
+    }
+    .again .fire .gal{
+        width: 280px;
+        object-fit: cover;
+        margin-left: 30px;
+    }
+    
+
+
+
+}
+@media screen and (max-width:900px) {
+    #nav{
+        width: 700px;
+    }
+    .con h2{
+      
+       font-size: 20px;
+    }
+    .lex{
+        width: 730px;
+        
+        gap: 10px;
+    }
+    .lam{
+        gap: 10px;
+    }
+    .laam{
+        gap: 10px;
+    }
+    .lex .box{
+      width: 175px;
+      height: 160px;
+      font-size: 13px;
+    }
+    .line h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .red .jk .b .ds{
+        height: 130px;
+    }
+    .jk .b{
+        margin-left: 40px;
+    }
+    .jk .b3{
+        width: 200px;
+        height: 220px;
+    }
+    .jk .b2{
+        width: 200px;
+        height: 220px;
+    }
+    .again {
+        width: 800px;
+    }
+    .again .fire .gal{
+        width: 200px;
+        margin-left: 30px;
+        object-fit: cover;
+    }
+    .again .fire .gal img{
+        width:275px ;
+        height: 250px;
+    }
+    .again .ice .cold{
+        height: 80%;
+    }
+    .asd{
+        margin-top: 50px;
+    }
+   
+    
+   
+    
+}
+@media screen and (max-width:750px) {
+    
+   .zero ul li{
+    display: none;
+   }
+   #nav{
+    width: 500px;
+   }
+  .con{
+    height: 90px;
+  }
+  .zone{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #jam{
+    height: 800px;
+  }
+  #ram ul{
+    font-size: 12px;
+  }
+  .flex{
+    height: 270px;
+  }
+  .lex{
+    width: 550px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  }
+ 
+  .laam{
+    gap: 70px;
+  }
+  .red .jk .b .ds{
+    width: 180px;
+  }
+  .jk .b1{
+    width: 620px;
+  }
+  .jk .ora{
+    height: 60px;
+  }
+  .red .jk{
+    width: 700px;
+    height: 480px;
+  }
+  .jk .b3{
+    left: 70px;
+  }
+  .again{
+    margin-top: 114px;
+    width:730px ;
+    height: 420px;
+  }
+  .again .fire{
+    height: 400px;
+  }
+  .again .fire .gal img{
+    width: 274px;
+    height: 250px;
+  }
+  .again .ice{
+    height: 400px;
+  }
+  .again .ice .cold{
+    height: 400px;
+  }
+  
+}
+@media screen and (max-width:650px) {
+    .jk .b3{
+        left: -15px;
+    }
+    .jk .b2{
+        left: -45px;
+    }
+    .again{
+        width:650px ;
+        height: 420px;
+      }
+      .again .fire{
+        height: 400px;
+      }
+      .again .fire .gal img{
+        width: 274px;
+        height: 250px;
+      }
+      .again .ice{
+        height: 400px;
+      }
+      .again .ice .cold{
+        height: 400px;
+      }
+      .last button{
+        font-size: 10px;
+      }
+}
+@media screen and (max-width:580px) {
+    #nav{
+        width: 350px;
+       }
+     #ram ul{
+        font-size: 10px;
+       }
+       #jam #a h3{
+        font-size: 16px;
+       }
+       #jam #a h2{
+        font-size: 19px;
+       }
+       
+       .lex{
+        height: 200px;
+       }
+       .lex .box{
+        font-size: 11px;
+       }
+       .jk .b h2{
+        font-size: 20px;
+       }
+       .jk .b{
+        width: 460px;
+       }
+       .jk .b1{
+        width: 500px;
+       } 
+       .jk .b .ora{
+        height: 65px;
+       }
+       .jk .b3{
+        width: 170px;
+        height: 210px;
+        left: -55px;
+       
+       }
+       .jk .b2{
+        width: 170px;
+        height: 210px;
+        top: 55px;
+        left: -55px;
+       }
+       .b3 img{
+        width: 180px;
+        height: 230px;
+       }
+       .sam h2{
+        font-size: 19px;
+       }
+       .lex .box{
+        width: 150px;
+        height: 130px;
+       }
+       .lam{
+        width: 398px;
+       }
+       .red{
+        width: 500px;
+        }
+       .red .jk{
+        width: 520px;
+        height: 500px;
+       }
+       .again{
+        margin-top:135px;
+        width:545px ;
+        height: 420px;
+       }
+       .again .fire{
+        width: 240px;
+        height: 420px;
+       }
+       .again .ice{
+        height: 420px;
+       }
+       .again .ice .cold{
+        height: 420px;
+       }
+       .again .fire .gal{
+        width: 172px;
+        height: 200px;
+     }
+     .again .fire .gal img{
+        width: 200px;
+        height: 205px;
+     }
+   
+     .last .za{
+        flex-direction: column;
+        align-items: center;
+
+     }
+     .last .zb{
+        flex-direction: column;
+        align-items: center;
+
+     }
+     .ice .cold .pol h2{
+        font-size: 20px;
+     }
+     .asd .as2{
+        font-size: 15px;
+     }
+     .last .za {
+        gap: 8px;
+     }
+     .last .zb {
+        gap: 8px;
+     }
+     footer{
+        margin-top: 320px;
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+     }
+     footer h2{
+        font-size: 16px
+     }
+     footer .yugo{
+        
+        margin-top: 150px;
+     }
+     footer p{
+        font-size: 12px;
+     }
+     footer ul{
+        font-size: 12px;
+     }
+
+       }
+
+@media screen and (max-width:450px) {
+    
+    .lex .lam{
+        width: 350px;
+    }
+    .lex .box{
+        width: 141px;
+        height: 130px
+    }
+    .laam{
+        width: 350px;
+    }
+    .red{
+        width: 350px;
+       
+    }
+    .red .jk{
+       height: 625px;
+      
+       }
+       .jk .b{
+        width: 140px;
+       }
+       .jk .b2{
+        width: 150px;
+        height: 230px;
+        left: -90px;
+        background-position: calc(65%);
+        background-size: cover;
+         background-repeat: no-repeat;
+       }
+       .b1 .b3{
+        width: 150px;
+        height: 230px;
+        left: -90px;
+       }
+       .lex .box{
+        font-size: 11px;
+       }
+       .again{
+        margin-top:150px ;
+        width: 400px;
+        height: 600px;
+       }
+       .jk .b h2{
+        font-size: 20px;
+       }
+       
+       .jk .b .ds p{
+        font-size: 16px;
+       }
+       .ice .cold .bol{
+        margin-top: 30px;
+       }
+       .ice .cold .pol h2{
+        font-size: 21px;
+       }
+       .ice .cold .par{
+        font-size: 15px;
+       }
+      
+    
+}
